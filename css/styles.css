@@ -501,6 +501,12 @@ textarea {
     stroke: rgba(0, 0, 0, 0.10);
     border: #E7E9FC;
 }
+.order-form {
+    margin-top: 16px;
+}
+.form-compette {
+    padding-top: 48px;
+}
 .form-name {
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
@@ -533,6 +539,10 @@ textarea {
     top: 50%;
     transform: translateY(-50%);
     left: 16px;
+}
+.icon:hover,
+.icon:focus {
+   fill: #4D5AE5 
 }
 .close-icon {
     fill: #2E2F42;  
