@@ -589,6 +589,8 @@ textarea {
     line-height: 1.2;
     color: var(--LIGHT-SLATE, #8E8F99);
     margin-bottom: 4px;
+    line-height: 1.17; 
+    letter-spacing: 0.04em;
 }
 .modal-input {
     width: 100%;
@@ -632,4 +634,7 @@ textarea {
 .checkbox {
     text-align: start;
 
+}
+.svg-input {
+    position: relative;
 }
