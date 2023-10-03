@@ -626,6 +626,9 @@ textarea {
     position: relative;
     margin-bottom: 8px;
 }
+.checkbox-field {
+    margin-bottom: 24px;
+}
 .textarea-field {
     margin-bottom: 16px;
 }
@@ -634,13 +637,17 @@ textarea {
     font-size: 12px;
     color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
     font-weight: 400;
-    line-height: 1.2;
+    line-height: 1.17;
     letter-spacing: 0.48px;
     padding-left: 16px;
+    height: 120px;
+    padding: 8px 16px; 
+}
+.textarea:focus {
+    border-color: #4D5AE5; 
 }
 .checkbox {
     text-align: start;
-
 }
 .svg-input {
     position: relative;
