@@ -446,11 +446,33 @@ p {
 }
 .footer-container {
     display: flex;
-    align-items: baseline;
+    justify-content: center;
 }
 .social-media {
     display: flex;
     gap: 16px;
+}
+footer .modal-label {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 0.32px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+footer .modal-input {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.48px;
+    background-color: #2E2F42;
+    border-color: #FFFFFF;
+}
+.footer-icon {
+    fill: #FFFFFF;
 }
 /*Modal window*/
 /*label {
@@ -476,11 +498,11 @@ textarea {
     visibility: hidden;
     pointer-events: none;
 }
-.is-open {
+/*.is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
-    }
+    }*/
 .modal {
     width: 408px;
     height: 584px;
@@ -540,8 +562,7 @@ textarea {
     transform: translateY(-50%);
     left: 16px;
 }
-.icon:hover,
-.icon:focus {
+.modal-input:checked + .modal-label {
    fill: #4D5AE5 
 }
 .close-icon {
@@ -558,4 +579,8 @@ textarea {
     line-height: 1.2;
     letter-spacing: 0.48px;
     padding-left: 16px;
+}
+.checkbox {
+    text-align: start;
+
 }

@@ -234,6 +234,16 @@
                         <use href="./images/icons.svg#icon-linkedin-1"></use>
                     </svg></a></li>
                 </ul>
+            </div>
+            <div class="footer-form">
+                <label class="modal-label" for="footer-label">Subscribe</label>
+                    <input class="modal-input" type="email" name="user-email" placeholder="E-mail" id="footer-label" required/>
+            </div>
+            <div class="footer-button">
+                <button class="send-button" type="submit">Subscribe
+                    <svg class="footer-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-Frame-3"></use>
+                </svg></button>
             </div> 
         </div>
 </footer>
@@ -271,11 +281,15 @@
                     </svg>
                     <input class="modal-input" id="email" type="email" name="user-email" required/>
                 </div>
+                <div class="modal-field">
                 <label class="modal-label" for="comment">Comment</label>
                     <textarea class="modal-input textarea" id="comment" name="comment" rows="6" placeholder="Text input"></textarea>
+                </div>    
+                    <div class="modal-field">
                     <label class="modal-label">
-                <input class="modal-input" type="checkbox" name="answer" value="privacy-policy-accepted" required/>
+                <input class="modal-input checkbox" type="checkbox" name="answer" value="privacy-policy-accepted" required/>
                 I accept the terms and conditions of the <span><a class="privacy-policy-link" href="https://policies.google.com/privacy?hl=en-US" target="_blank">Privacy Policy</a></span></label>
+            </div>
                 <button class="send-button" type="submit">Send</button>
             </div>
             </form>     
