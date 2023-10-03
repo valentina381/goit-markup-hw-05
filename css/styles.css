@@ -631,9 +631,9 @@ textarea {
 .checkbox-field {
     margin-bottom: 24px;
 }
-/*.textarea-field {
+.textarea-field {
     margin-bottom: 16px;
-}*/
+}
 .textarea {
     font-family: "Roboto";
     font-size: 12px;
